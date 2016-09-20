@@ -1,29 +1,51 @@
 <ion-view view-title='' hide-nav-bar="true">
-    <ion-content>
+  <ion-content class="gradientGray login">
 
-      <div class="card">
+    <div class="row" style="height: 100%;">
+      <div class="col col-10"></div>
+      <div class="col col-80" style="height: inherit;">
 
+        <!-- Logo, slogan and padding divs -->
+        <div style="height: 1%"></div>
 
-        <div class="item item-body">
-
-          <label class="item item-input">
-            <span class="input-label">Account</span>
-            <input type="password">
-          </label>
-
-          <label class="item item-input">
-            <span class="input-label">Password</span>
-            <input type="password">
-          </label>
-
-          <button class="button button-block button-dark" ui-sref="main.home">
-            Login
-            <ion-nav-view name="tab-home"></ion-nav-view>
-          </button>
-
+        <div style="height: 30%">
+          <img src="main/assets/images/weSign.jpg" class="imgCenter">
         </div>
-      </div>
 
-    </ion-content>
+        <div style="height: 5%"></div>
+
+        <div style="height: 20%">
+          <img src="main/assets/images/weSlogan.png" class="imgCenter">
+        </div>
+
+        <div style="height: 5%"></div>
+
+        <div>
+
+          <div class="list" style="height:35%;">
+
+            <label class="item item-input">
+              <span class="input-label">Account</span>
+              <input type="password">
+            </label>
+
+            <label class="item item-input">
+              <span class="input-label">Password</span>
+              <input type="password">
+            </label>
+
+            <button class="button button-block button-assertive" ui-sref="main.home">
+              Login
+              <ion-nav-view name="tab-home"></ion-nav-view>
+            </button>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col col-10"></div>
+    </div>
+
+  </ion-content>
 </ion-view>
 

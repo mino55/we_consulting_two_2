@@ -24,3 +24,7 @@
 # IDE
 *.sublime-project
 *.sublime-workspace
+
+#webstorm
+.idea
+.idea/

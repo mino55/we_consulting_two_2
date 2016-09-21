@@ -22,9 +22,12 @@
 }
 
 .testBorder{
+  /*
   border-style: solid;
   border-color: black;
   border-width: 4px;
+  */
+
 }
 
 .imgCenter{
@@ -43,3 +46,82 @@
 
   opacity: 0.4    !important;
 }
+
+.centerH{
+  margin-left: auto;
+  argin-right: auto;
+  display: block;
+}
+
+.bAll{
+  background-repeat: no-repeat;
+  background-attachment: inherit; /**/
+  background-position: center;
+  background-size:cover
+}
+
+.bOne{
+  background-image: url("../assets/images/badgeOne.png") !important;
+}
+
+.bTwo{
+  background-image: url("../assets/images/badgeTwo.png") !important;
+}
+
+.bThree{
+  background-image: url("../assets/images/badgeThree.png") !important;
+}
+
+.bFour{
+  background-image: url("../assets/images/badgeFour.png") !important;
+}
+
+// Medal text
+.bText{
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px black/*, -2px -2px black*/;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+
+// Copied and pasted from Stack overflow (change order?)
+.imgCenter {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.bubbles {
+  background-image: url("../assets/images/bubbles.png") !important;
+  background-repeat: no-repeat;
+  background-attachment: inherit; /**/
+  background-position: center;
+  background-size:cover;
+
+  background-color: white; /* For browsers that do not support gradients */
+  background-color: -webkit-linear-gradient(-170deg, #f1f1f1, white); /* For Safari 5.1 to 6.0 */
+  background-color: -o-linear-gradient(-170deg, #f1f1f1, white);      /* For Opera 11.1 to 12.0 */
+  background-color: -moz-linear-gradient(-170deg, #f1f1f1, white);    /* For Firefox 3.6 to 15 */
+  background-color: linear-gradient(-170deg, #f1f1f1 , white);     /* Standard syntax */
+}
+
+.unfinished{
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 40px;
+}
+
+.boxShadow{
+  box-shadow: 10px 10px 5px #888888 !important;
+}
+

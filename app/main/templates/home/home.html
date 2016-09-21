@@ -1,53 +1,94 @@
 <ion-view view-title='' hide-nav-bar="true">
-  <ion-content class = "RadiantGrey">
+  <ion-content class="gradientGray">
+
+    <br>
 
     <!-- ui-sref="main.listDetail" -->
-    <div class="list">
+
+    <div class="row">
+
+      <div class="col col-10"></div>
+
+      <div class="col col-80">
+
+        <div class="boxShadow">
+          <ion-list>
+
+            <ion-item class="item item-divider">Leaderboard</ion-item>
+
+            <!--
+            <ion-item class="item item-text-wrap">
+              <p> <span style="color:gold"><b>12,123</b></span></p>
+              <p> <span style="color:silver"><b>11,105</b></span></p>
+              <p> <span style="color:brown"><b>9,000</b></span></p>
+            </ion-item>
+            -->
+            <ion-item class="item item-text-wrap">
+              <div class="row testBorder">
+
+                <div class="testBorder"
+                     style="display: block; float:left !important; /*margin-left: auto; margin-right: auto;*/ width:75%;">
+
+                  <div
+                    style="width:40%; border-right: solid black; border-right-width: 1px; float:left !important;/**/">
+                    <p>1. Amanda</p>
+                    <p>2. Joe</p>
+                    <p>3. Richard</p>
+                  </div>
+
+                  <div style="display: block; width:50%; float:right !important;/**/">
+                    <p>12,123 </p>
+                    <p>11,105</p>
+                    <p>9,000</p>
+                  </div>
+
+                </div>
+
+              </div>
+            </ion-item>
+          </ion-list>
+        </div>
 
 
-      <div>
-        <h2><b>Leaderboard</h2></b>
+        <br>
 
+        <div class="boxShadow">
+          <ion-list>
 
+            <ion-item class="item item-divider">News</ion-item>
 
-        <p>(1) Amanda <span style="color:gold"><b>12,123</b></span></p>
-        <p>(2) Joe <span style="color:silver"><b>11,105</b></span></p>
-        <p>(3) Richard <span style="color:brown"><b>9,000</b></span></p>
+            <ion-item class="item-text-wrap">
+              Site will be down due to maintenance.
+            </ion-item>
+
+          </ion-list>
+        </div>
+
+        <br>
+
+        <div class="boxShadow">
+          <ion-list>
+
+            <ion-item class="item item-divider">Blog</ion-item>
+
+            <ion-item class="item-text-wrap">
+              Mockups till super awesome we application bbbbbbbbbbbbbbbbbbbbbbbbbbörjar bli klar.
+            </ion-item>
+
+          </ion-list>
+        </div>
+
+        <br><br><br>
+
+        <button class="button button-block button-assertive" ui-sref="login">
+          Log out
+        </button>
+
       </div>
 
+      <div class="col col-10"></div>
 
-
-
-      <div>
-       <h2><b>News</h2></b>
-
-
-
-        Site will be down due to maintenance.
-      </div>
-
-
-
-
-
-      <div>
-        <h2><b>Blog</h2></b>
-
-        Mockups till super awesome we application bbbbbbbbbbbbbbbbbbbbbbbbbbörjar bli klar.
-
-
-
-
-
-
-      </div>
     </div>
-
-
-    <button class="button button-block button-assertive" ui-sref="login">
-      Log out
-
-    </button>
 
   </ion-content>
 </ion-view>

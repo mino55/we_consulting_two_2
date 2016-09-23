@@ -27,9 +27,11 @@
   border-color: black;
   border-width: 4px;
   */
+
 }
 
 .imgCenter{
+
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -51,11 +53,12 @@
 }
 
 .centerH{
-  /*
+  /**/
   margin-left: auto;
   margin-right: auto;
   display: block;
-  */
+
+
 }
 
 .bAll{
@@ -81,20 +84,41 @@
   background-image: url("../assets/images/badgeFour.png") !important;
 }
 
-// Medal text
-.bText{
-  font-size: 40px;
-  color: white;
-  text-shadow: 2px 2px black/*, -2px -2px black*/;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 90px;
+.bgTrophy{
+  background-image: url("../assets/images/trophyFlat.png") !important;
 }
 
-// Copied and pasted from Stack overflow (change order?)
-.imgCenter {
-  max-height: 100%;
-  max-width: 100%;
+.scoreText{
+  text-align: center;
+  color: gold                  !important;
+  text-shadow: 1px 1px black   !important;
+  font-size: 25px              !important;
+  line-height: 25px            !important;
+}
+
+// Medal text
+.bText{
+  font-size: 35px             !important;
+  color: white                !important;
+  text-shadow: 2px 2px black  !important;
+  text-align: center          !important;
+  vertical-align: middle      !important;
+  line-height: 90px           !important;
+}
+
+.trophyText{
+  font-size: 30px !important;
+  color: white !important;
+  text-shadow: 2px 2px black, -4px -4px black/**/  !important;
+  text-align: center  !important;
+  vertical-align: middle  !important;
+  line-height: 90px  !important;
+}
+
+// Copied and pasted from Stack overflow (change order maybe?)
+.imgCenterSuper {
+  // max-height: 100%;
+  // max-width: 100%;
   width: auto;
   height: auto;
   position: absolute;
@@ -111,12 +135,6 @@
   background-attachment: inherit; /**/
   background-position: center;
   background-size:cover;
-
-  background-color: white; /* For browsers that do not support gradients */
-  background-color: -webkit-linear-gradient(-170deg, #f1f1f1, white); /* For Safari 5.1 to 6.0 */
-  background-color: -o-linear-gradient(-170deg, #f1f1f1, white);      /* For Opera 11.1 to 12.0 */
-  background-color: -moz-linear-gradient(-170deg, #f1f1f1, white);    /* For Firefox 3.6 to 15 */
-  background-color: linear-gradient(-170deg, #f1f1f1 , white);     /* Standard syntax */
 }
 
 .unfinished{
@@ -130,3 +148,61 @@
   box-shadow: 10px 10px 5px #888888 !important;
 }
 
+.gradientGreen{
+  color: #FFFFFF                                                 !important;
+  background: #50baa2                                            !important;  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(+45deg, #50baa2, #66ffe4)  !important;  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(+45deg, #50baa2, #66ffe4)       !important;  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(+45deg, #50baa2, #66ffe4)     !important;  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(+45deg, #50baa2 , #66ffe4)         !important;  /* Standard syntax */
+}
+
+.gradientYellow{
+  // background-color: fdc541;
+  //
+  // text-shadow: 1px 1px gray                                      !important;
+  color: #FFFFFF                                                 !important;
+  background: #fdc541                                            !important;  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(+45deg, #fdc541, #fffd7a)  !important;  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(+45deg, #fdc541, #fffd7a)       !important;  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(+45deg, #fdc541, #fffd7a)     !important;  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(+45deg, #fdc541 , #fffd7a)         !important;  /* Standard syntax */
+}
+
+.gradientBlue{
+  color: #FFFFFF                                                 !important;
+  background: #499ab9                                            !important;   /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(+45deg, #499ab9, #5fd4fa)  !important;   /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(+45deg, #499ab9, #5fd4fa)       !important;   /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(+45deg, #499ab9, #5fd4fa)     !important;   /* For Firefox 3.6 to 15 */
+  background: linear-gradient(+45deg, #499ab9 , #5fd4fa)         !important;   /* Standard syntax */
+}
+
+.gradientOrange{
+  color: #FFFFFF                                                 !important;
+  background: #e84e0e                                            !important;   /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(+45deg, #e84e0e, #ff8836)  !important;   /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(+45deg, #e84e0e, #ff8836)       !important;   /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(+45deg, #e84e0e, #ff8836)     !important;   /* For Firefox 3.6 to 15 */
+  background: linear-gradient(+45deg, #e84e0e , #ff8836)         !important;   /* Standard syntax */
+}
+
+// Copied-pasted from ionic forums
+.ng-animate .scroll-bar {
+  visibility: visible !important;
+}
+
+// Copied-pasted from ionic forums
+.scroll-bar-fade-out{
+  opacity:1 !important;
+}
+
+.centerOverflow {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+
+}
